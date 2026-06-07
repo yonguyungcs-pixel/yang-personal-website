@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="杨年咏的个人技术主页，聚焦 Android Framework、SystemUI、车载系统与 AI Coding Agent 工程化实践。" />
+  <title>杨年咏 | Android Framework & AI Agent</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#top">YANG<span>.</span></a>
+      <nav aria-label="主导航">
+        <a href="#about">关于</a>
+        <a href="#work">项目</a>
+        <a href="#skills">技能</a>
+        <a href="#contact">联系</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow">ANDROID FRAMEWORK · SYSTEMUI · AI CODING AGENT</p>
+        <h1>把复杂系统，<br /><span>做成可落地的工程能力。</span></h1>
+        <p class="lead">
+          我专注于 Android Framework、SystemUI、车载系统与 AI Coding Agent 工程化实践，
+          关注系统级问题定位、稳定性优化、研发效率提升与真实业务落地。
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#work">查看项目</a>
+          <a class="button ghost" href="https://github.com/yonguyungcs-pixel" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+
+      <aside class="terminal-card" aria-label="个人信息摘要">
+        <div class="terminal-topbar">
+          <span></span><span></span><span></span>
+        </div>
+        <pre><code><span class="muted">$ whoami</span>
+杨年咏
+
+<span class="muted">$ role</span>
+Android Framework Engineer
+AI Coding Agent Practitioner
+
+<span class="muted">$ focus</span>
+SystemUI / Bluetooth / Performance
+Codex Workflow / Agent Engineering
+
+<span class="muted">$ status</span>
+<span class="ok">● building reliable systems</span></code></pre>
+      </aside>
+    </section>
+
+    <section id="about" class="section container">
+      <div class="section-head">
+        <p class="eyebrow">01 · ABOUT</p>
+        <h2>面向复杂系统问题，建立可复用的方法。</h2>
+      </div>
+      <div class="about-grid">
+        <p>
+          工作方向覆盖 Android Framework、SystemUI、蓝牙连接、窗口管理、性能检测、
+          车载终端与大型 Android 工程问题定位。相比单点修复，我更重视将经验沉淀为
+          可复用的诊断路径、工具链与团队规范。
+        </p>
+        <p>
+          同时，我持续探索 Codex 等 AI Coding Agent 在研发中的落地方式：如何控制上下文、
+          约束修改边界、自动化代码审查、生成性能报告，并形成 Human-Agent-CI 闭环。
+        </p>
+      </div>
+    </section>
+
+    <section id="work" class="section container">
+      <div class="section-head">
+        <p class="eyebrow">02 · SELECTED WORK</p>
+        <h2>工程实践与开源项目。</h2>
+      </div>
+      <div class="card-grid">
+        <article class="project-card featured">
+          <div class="card-meta">OPEN SOURCE · ANDROID</div>
+          <h3>SpannedGridLayoutManager</h3>
+          <p>支持 1×1、2×1、2×2 等不同跨度卡片的 RecyclerView 布局管理器，可用于桌面卡片、仪表盘与车机 Launcher 场景。</p>
+          <div class="tags"><span>Kotlin</span><span>RecyclerView</span><span>LayoutManager</span></div>
+          <a href="https://github.com/yonguyungcs-pixel/SpannedGridLayoutManager" target="_blank" rel="noreferrer">查看仓库 →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="card-meta">ENGINEERING · PERFORMANCE</div>
+          <h3>SystemUI 卡顿检测工具</h3>
+          <p>基于 ADB 的无侵入检测方案，统计关键帧耗时，输出 CSV 与 HTML 曲线报告，用于弹窗与窗口动画性能分析。</p>
+          <div class="tags"><span>ADB</span><span>SystemUI</span><span>HTML Report</span></div>
+        </article>
+
+        <article class="project-card">
+          <div class="card-meta">AI AGENT · WORKFLOW</div>
+          <h3>Codex 工程化实战</h3>
+          <p>围绕 Crash 自动修复、截图驱动 UI 修复、代码审查与 AGENTS.md 约束，构建可落地的 AI Agent 协作流程。</p>
+          <div class="tags"><span>Codex</span><span>Agent Workflow</span><span>CI</span></div>
+        </article>
+
+        <article class="project-card">
+          <div class="card-meta">ANDROID · SYSTEM</div>
+          <h3>车载 Android 系统实践</h3>
+          <p>关注蓝牙自动连接、窗口管理、Framework 兼容性、系统权限与性能稳定性，解决复杂系统级问题。</p>
+          <div class="tags"><span>Framework</span><span>Bluetooth</span><span>WindowManager</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section container">
+      <div class="section-head">
+        <p class="eyebrow">03 · SKILLS</p>
+        <h2>长期积累的技术方向。</h2>
+      </div>
+      <div class="skills-grid">
+        <div><h3>Android System</h3><p>Framework、SystemUI、WindowManager、权限与系统服务。</p></div>
+        <div><h3>Performance</h3><p>卡顿检测、ANR 分析、帧耗时统计、性能报告与验证路径。</p></div>
+        <div><h3>Connectivity</h3><p>经典蓝牙、BLE、A2DP、自动连接与车载交互链路。</p></div>
+        <div><h3>AI Engineering</h3><p>Codex、Agent Workflow、上下文约束、自动化审查与 CI 协作。</p></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section container contact">
+      <div>
+        <p class="eyebrow">04 · CONTACT</p>
+        <h2>持续构建，持续沉淀。</h2>
+        <p>欢迎通过 GitHub 查看我的项目与后续更新。</p>
+      </div>
+      <a class="button primary" href="https://github.com/yonguyungcs-pixel" target="_blank" rel="noreferrer">访问 GitHub</a>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <span>© <span id="year"></span> 杨年咏</span>
+    <span>Built with HTML, CSS and JavaScript</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
